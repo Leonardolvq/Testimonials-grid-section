@@ -1,6 +1,6 @@
 import data from './assets/data/data.js'
 import Card from './card.jsx'
-import './assets/style/style.css'
+import './assets/style/app.css'
 
 function App() {
 
