@@ -68,47 +68,52 @@
     
     .jonathan-walters{
         grid-column: 1 / 2;
+        grid-row: 2;
     }
     
     .jeanette-harmon{
         grid-column: 2 / 3;
+        grid-row: 2;
     }
     
     .patrick-abrams{
         grid-column: 1 / 3;
+        grid-row: 3;
     }
     
     .kira-whittle{
         grid-column: 1 / 3;
-        grid-row: none;
+        grid-row: 4;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     .daniel-clifford{
         grid-column: 1 / 2;
+        grid-row: 1;
+        background-image: none;
     }
     
     .jonathan-walters{
         grid-column: 1 / 2;
+        grid-row: 2;
     }
     
     .jeanette-harmon{
         grid-column: 1 / 2;
+        grid-row: 3;
     }
     
     .patrick-abrams{
         grid-column: 1 / 2;
+        grid-row: 4;
     }
     
     .kira-whittle{
         grid-column: 1 / 2;
-        grid-row: none;
+        grid-row: 5;
     }
 
-    .daniel-clifford{
-        background-image: none;
-    }
 }
 
 
